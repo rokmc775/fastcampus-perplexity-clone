@@ -21,3 +21,9 @@ python-dotenv = "^1.0.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.packages]  # 이 부분을 추가합니다.
+include = [
+    "fastcampus_perplexity_clone"  # 실제 코드가 있는 폴더 이름과 일치해야 합니다.
+]
